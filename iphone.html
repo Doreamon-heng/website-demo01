@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Archives</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/product.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <span class="logo">
+        <img
+          src="picture/logo.jpg"
+          alt=""
+        />
+      </span>
+      <div class="menu">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="active-bar"><a href="iphone.html">iPhone</a></li>
+          <li><a href="samsung.html">Samsung</a></li>
+          <li><a href="#other">Others</a></li>
+          <li><a href="#secondhand">Secondhand</a></li>
+        </ul>
+      </div>
+
+      <div class="icon-menu">
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+        <a href=""><i class="fa-regular fa-user"></i></a>
+        <span class="icon-toggler">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+        <div class="menu-show">
+          <span class="close-menu"><i class="fa-solid fa-x"></i></span>
+          <ul class="nav-links-show">
+            <li><a href="index.html">Home</a></li>
+            <li class="active-bar"><a href="iphone.html">iPhone</a></li>
+            <li><a href="samsung.html">Samsung</a></li>
+            <li><a href="#other">Others</a></li>
+            <li><a href="#secondhand">Secondhand</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- mode -->
+      <div class="darkLight">
+        <div class="dark-light">
+          <a href=""><i class="fa-solid fa-moon moon"></i></a>
+          <a href=""><i class="fa-regular fa-sun sun"></i></a>
+        </div>
+      </div>
+      <!-- search product -->
+      <div class="search-product">
+        <input type="text" placeholder="Search for products..." />
+        <div class="icon-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="tabs_buttons">
+        <button class="tab anime active" data-name="all">Show all</button>
+        <button class="tab anime" data-name="iphone-mobile">
+          Iphone Mobile
+        </button>
+        <button class="tab anime" data-name="Ipad">Ipad</button>
+        <button class="tab anime" data-name="iphone-accessory">
+          Iphone Accessory
+        </button>
+      </section>
+
+      <section class="products">
+        <div
+          class="card anime"
+          data-name="iphone-mobile"
+          onclick="location.href='detail.html'"
+        >
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2025/03/iphone6ee.png"
+            alt="iPhone 16e X/A"
+          />
+          <h3>iPhone 16e X/A</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$679</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-mobile">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/09/iphone16.plus_.pink_.png"
+            alt="iPhone 16 Plus X/A"
+          />
+          <h3>iPhone 16 Plus X/A</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$899</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-mobile">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/09/iphone16.black_.png"
+            alt="Galaxy A26"
+          />
+          <h3>iPhone 16 X/A</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$787</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-mobile">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/09/iphone16pro.max_.gold_.png"
+            alt="iPhone 16 Pro Max LL/A"
+          />
+          <h3>iPhone 16 Pro Max LL/A</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$1,090</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/03/S10SP.png"
+            alt="Apple Watch S10 2024"
+          />
+          <h3>Apple Watch S10</h3>
+          <h3>2024</h3>
+          <p>$375</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/03/S10.SL_.png"
+            alt="Apple Watch S10"
+          />
+          <h3>Apple Watch S10</h3>
+          <h3>2024 (Solo Loop)</h3>
+          <p>$375</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/03/SE.SP_.s.png"
+            alt="Apple Watch SE"
+          />
+          <h3>Apple Watch SE</h3>
+          <h3>2024</h3>
+          <p>$245</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/09/iphone16.plus_.green_.png"
+            alt="iPhone 16 Plus ZA/A"
+          />
+          <h3>iPhone 16 Plus ZA/A</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$985</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="Ipad">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/05/11inch-Pro-m4_20240508_142416_0025.png"
+            alt="iPad Pro Chip M4 "
+          />
+          <h3>iPad Pro Chip M4</h3>
+          <h3>11inch</h3>
+          <p>$945</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="Ipad">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/05/11inch-Pro-m4_20240508_142416_0025.png"
+            alt="iPad Pro Chip M4"
+          />
+          <h3>iPad Pro Chip M4</h3>
+          <h3>11inch ធានា១ឆ្នាំ</h3>
+          <p>$975</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="Ipad">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/05/13inch-pro-m4-2_20240508_142416_0028.png"
+            alt="iPad Pro Chip M4 13inch"
+          />
+          <h3>iPad Pro Chip</h3>
+          <h3>M4 13inch</h3>
+          <p>$1,175</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="Ipad">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/05/13inch-air6-m2-2_20240508_142416_0018.png"
+            alt="iPad Air Chip M2"
+          />
+          <h3>iPad Air Chip M2</h3>
+          <h3>13inch ធានា១ឆ្នាំ</h3>
+          <p>$1,055</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/05/600x600_20240508_180841_0012.png"
+            alt="Magic Keyboard for iPad Pro "
+          />
+          <h3>Magic Keyboard for iPad Pro</h3>
+          <h3>M4 13inch</h3>
+          <p>$360</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/05/600x600_20240508_180840_0003.png"
+            alt="Magic Keyboard"
+          />
+          <h3>Samsung 45W</h3>
+          <h3>iPad Air M2 11inch</h3>
+          <p>$320</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/05/600x600_20240508_163018_0000.png"
+            alt="Apple Pencil Pro"
+          />
+          <h3>Apple Pencil Pro</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$125</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2022/09/airpods.pro_.2.c_20231211_124214_0004.png"
+            alt="AirPods Pro 2nd"
+          />
+          <h3>AirPods Pro 2nd</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$210</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone-accessory">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2022/06/Copy_of_Copy_of_600%C3%97600_for_website_6_1inch_20240430_141136_0000.png"
+            alt="AirPods USB-C"
+          />
+          <h3>AirPods USB-C</h3>
+          <h3>ធានា២ឆ្នាំ</h3>
+          <p>$25</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="Ipad">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2024/04/12.9inch.grey-2_20240425_180232_0015.png"
+            alt="iPad Pro 12.9inch"
+          />
+          <h3>iPad Pro 12.9inch</h3>
+          <h3>(2021) Chip M1</h3>
+          <p>$815</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="Ipad">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2023/01/ipad10th-3_20231101_104420_0006.png"
+            alt="iPad 10th 10.9inch (2022)"
+          />
+          <h3>iPad 10th 10.9inch (2022)</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$340</p>
+          <button class="btn">Add to cart</button>
+        </div>
+        <div class="card anime" data-name="iphone">
+          <img
+            src="https://shunliphone.com/wp-content/uploads/2023/10/20231031_204151_0004.png"
+            alt="Galaxy Watch7"
+          />
+          <h3>iPhone 15 Plus</h3>
+          <h3>ធានា១ឆ្នាំ</h3>
+          <p>$839</p>
+          <button class="btn">Add to cart</button>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Your one-stop shop for quality products at the best prices. Shop smart, live better.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: phoneshop@e'commerce.com</p>
+          <p>Phone: +855 010 666 888</p>
+          <p>Address: No.271, sensok, phnom penh cambodia </p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 eCommerce Store. All rights reserved.</p>
+      </div>
+  </footer>
+    <script src="script/main.js"></script>
+    <script src="script/product.js"></script>
+  </body>
+</html>

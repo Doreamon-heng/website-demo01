@@ -1,0 +1,149 @@
+.top-sell {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(0, 6, 56), rgb(0, 0, 148));
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.top-sell .top-sell-title{
+    font-size: 1.5rem;
+    color: white;
+}
+.top-sell-item{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.card-top-sell {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-top-sell {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card-top-sell:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-top-sell img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-top-sell h3 {
+  margin: 10px 0 5px;
+  font-size: 1rem;
+}
+
+.card-top-sell p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0033cc;
+}
+
+.card-top-sell button {
+  margin-top: 10px;
+  background: #ffffff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  color: blue;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card-top-sell button:hover {
+  background-image: linear-gradient(rgb(0, 6, 56), rgb(0, 0, 104));
+  color: white;
+}
+@media screen and (max-width: 568px) and (min-width: 320px) {
+  .top-sell {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(0, 6, 56), rgb(0, 0, 148));
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.top-sell .top-sell-title{
+    font-size: 1.5rem;
+    color: white;
+}
+.top-sell-item{
+   
+    gap: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card-top-sell {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-top-sell {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card-top-sell:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-top-sell img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-top-sell h3 {
+  margin: 10px 0 5px;
+  font-size: 1rem;
+}
+
+.card-top-sell p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0033cc;
+}
+
+.card-top-sell button {
+  margin-top: 10px;
+  background: #ffffff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  color: blue;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card-top-sell button:hover {
+  background-image: linear-gradient(rgb(0, 6, 56), rgb(0, 0, 104));
+  color: white;
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 569px) {
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+}

@@ -1,0 +1,155 @@
+/* single product */
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.left img.main {
+  width: 80%;
+  max-width: 400px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.thumbnails img {
+  width: 100px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnails img:hover {
+  opacity: 1;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.right {
+  flex: 1;
+  padding: 30px;
+}
+
+h1 {
+  color: #002bb7;
+  font-size: 28px;
+}
+
+.price {
+  color: #d19700;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+  font-size: large;
+}
+
+.colors {
+  margin-top: 10px;
+}
+
+.colors span {
+  margin-right: 10px;
+}
+
+.add-to-cart {
+  margin-top: 20px;
+}
+
+.add-to-cart button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #002bb7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-info {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #333;
+}
+li {
+  font-size: large;
+}
+/* Responsive styles */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    max-width: 98vw;
+    margin: 20px auto;
+  }
+  .left,
+  .right {
+    padding: 20px 10px;
+  }
+  .left img.main {
+    width: 100%;
+    max-width: 100%;
+  }
+  .thumbnails img {
+    width: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+  }
+  .left,
+  .right {
+    padding: 10px 5px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .price {
+    font-size: 18px;
+  }
+  .thumbnails img {
+    width: 50px;
+  }
+  ul {
+    font-size: 14px;
+  }
+  li {
+    font-size: medium;
+  }
+  .add-to-cart button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}

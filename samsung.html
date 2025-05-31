@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samsung Archives</title>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/product.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+        <span class="logo">
+          <img
+            src="picture/logo.jpg"
+            alt=""
+          />
+        </span>
+        <div class="menu">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+              <li><a href="iphone.html">iPhone</a></li>
+              <li class="active-bar"><a href="samsung.html">Samsung</a></li>
+              <li><a href="#other">Others</a></li>
+              <li><a href="secondhand.html">Secondhand</a></li>
+          </ul>
+        </div>
+
+        <div class="icon-menu">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          <a href=""><i class="fa-regular fa-user"></i></a>
+          <span class="icon-toggler">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+          <div class="menu-show">
+            <span class="close-menu"><i class="fa-solid fa-x"></i></span>
+            <ul class="nav-links-show">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="iphone.html">iPhone</a></li>
+              <li class="active-bar"><a href="samsung.html">Samsung</a></li>
+              <li><a href="#other">Others</a></li>
+              <li><a href="secondhand.html">Secondhand</a></li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <!-- mode -->
+        <div class="darkLight">
+          <div class="dark-light">
+            <a href=""><i class="fa-solid fa-moon moon"></i></a>
+            <a href=""><i class="fa-regular fa-sun sun"></i></a>
+          </div>
+        </div>
+        <!-- search product -->
+        <div class="search-product">
+          <input type="text" placeholder="Search for products..." />
+          <div class="icon-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+             <section class="tabs_buttons">
+              <button class="tab anime active" data-name="all">Show all</button>
+               <button class="tab anime"  data-name="samsung-mobile">Samsung Mobile</button>
+               <button class="tab anime"  data-name="samsung-tablate">Galaxy Tab</button>
+               <button class="tab anime"  data-name="samsung-accessory">Samsung Accessory</button>
+             </section>
+       
+             <section class="products">
+               <div class="card anime " data-name="samsung-mobile" onclick="location.href='detail.html'">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2024/03/a56.green_.png"
+                   alt="Galaxy A56"
+                 />
+                 <h3>Galaxy A56 5G</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$499</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime " data-name="samsung-mobile">
+                 <img src="https://shunliphone.com/wp-content/uploads/2025/03/a36.blue_.png" alt="Galaxy A36" />
+                 <h3>Galaxy A36 5G</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$399</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime " data-name="samsung-mobile">
+                 <img src="https://shunliphone.com/wp-content/uploads/2025/03/a26.white_.png" alt="Galaxy A26" />
+                 <h3>Galaxy A26 5G</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$299</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime " data-name="samsung-mobile">
+                 <img src="https://shunliphone.com/wp-content/uploads/2025/03/a16.bk_.png" alt="Galaxy A16" />
+                 <h3>Galaxy A16</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$209</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-mobile">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2025/02/s25ultra.blue_.png"
+                   alt="Galaxy S25 Ultra"
+                 />
+                 <h3>Galaxy S25 Ultra</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$1,269</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-mobile">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2024/07/01-Q6-Navy-1600x1200-1.png"
+                   alt="Galaxy Z Fold 6"
+                 />
+                 <h3>Galaxy Z Fold 6</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$1,415</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-mobile">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2024/09/A06.png"
+                   alt="Galaxy A06"
+                 />
+                 <h3>Galaxy A06</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$119</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-mobile">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2024/09/A05s-1.png"
+                   alt="Galaxy A05s"
+                 />
+                 <h3>Galaxy A05s</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$174</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-mobile">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2024/09/A05s-1.png"
+                   alt="Galaxy A05"
+                 />
+                 <h3>Galaxy A05</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$109</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-mobile">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2024/07/01-B6-Mint-1600x1200-1.png"
+                   alt="Galaxy Z Flip 6"
+                 />
+                 <h3>Galaxy Z Flip 6</h3>
+                 <h3>ធានា១ឆ្នាំ</h3>
+                 <p>$955</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-tablate">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2024/03/GalaxyTabA9_20240305_121025_0015.png"
+                   alt="Galaxy Tab A9"
+                 />
+                 <h3>Galaxy Tab A9</h3>
+                 <h3>64GB|4GB LTE</h3>
+                 <p>$119</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-mobile">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2023/03/galaxy-a34-5g-amazing-silver.jpg"
+                   alt="Galaxy A34 5G"
+                 />
+                 <h3>Galaxy A34 5G</h3>
+                 <h3>128GB|8+8GB</h3>
+                 <p>$289</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-accessory">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2022/05/Super-Fast-Wireless-Charger-EP-P2400-15W-2.jpg"
+                   alt="Wireless Charger"
+                 />
+                 <h3>Super Fast</h3>
+                 <h3>Wireless Charger</h3>
+                 <p>$55</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-accessory">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2022/05/samsung-travel-adapter-45w-type-c-1.jpg"
+                   alt="USB-C Travel Adapter"
+                 />
+                 <h3>Samsung 45W</h3>
+                 <h3>USB_C Faster</h3>
+                 <p>$59</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-tablate">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2022/05/galaxy-tab-a8-black.jpg"
+                   alt="Galaxy Tab A8"
+                 />
+                 <h3>Galaxy Tab A8</h3>
+                 <h3>64GB|4GB LTE</h3>
+                 <p>$239</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-accessory">
+                 <img
+                   src="https://shunliphone.com/wp-content/uploads/2022/05/25W-Super-Fast-Wall-Charger-pd-samsung-600x600.jpg"
+                   alt="Samsung 25W"
+                 />
+                 <h3>Samsung 25W PD</h3>
+                 <h3>Super Fast Wall</h3>
+                 <p>$25</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-accessory">
+                 <img
+                   src="https://images.samsung.com/is/image/samsung/assets/40821/CX-Accessories-CO35-Buds3-DT.jpg?$330_330_JPG$"
+                   alt="Buds3-DT"
+                 />
+                 <h3>Buds3 DT</h3>
+                 <h3>ធានា២ឆ្នាំ</h3>
+                 <p>$100</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-accessory">
+                 <img
+                   src="https://images.samsung.com/is/image/samsung/assets/us/accessories/09192024/CO35_featured_Charger_330x330.jpg?$330_330_JPG$"
+                   alt="featured_Charger"
+                 />
+                 <h3>Featured Charger</h3>
+                 <h3>25W 10,000 mAh</h3>
+                 <p>$35</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-accessory">
+                 <img
+                   src="https://images.samsung.com/is/image/samsung/assets/us/accessories/09192024/CO35_featured_Adapter_330x330.jpg?$330_330_JPG$"
+                   alt="Duo Power Adapter"
+                 />
+                 <h3>Duo Power Adapter 50W</h3>
+                 <h3>5A USB C Cable</h3>
+                 <p>$50</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+               <div class="card anime" data-name="samsung-accessory">
+                 <img
+                   src="https://images.samsung.com/is/image/samsung/assets/40821/CX-Accessories-CO35-Watch7-DT.jpg?$330_330_JPG$"
+                   alt="Galaxy Watch7"
+                 />
+                 <h3>Galaxy Watch7</h3>
+                 <h3>ធានា២ឆ្នាំ</h3>
+                 <p>$300</p>
+                 <button class="btn">Add to cart</button>
+               </div>
+             </section>
+           </main>
+         </div>
+         <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Your one-stop shop for quality products at the best prices. Shop smart, live better.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: phoneshop@e'commerce.com</p>
+          <p>Phone: +855 010 666 888</p>
+          <p>Address: No.271, sensok, phnom penh cambodia </p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 eCommerce Store. All rights reserved.</p>
+      </div>
+  </footer>
+         <script src="script/main.js"></script>
+        <script src="script/product.js"></script>
+  </body>
+</html>
